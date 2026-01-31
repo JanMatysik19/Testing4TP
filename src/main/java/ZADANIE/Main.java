@@ -57,6 +57,7 @@ class Main {
     public void handleWindowClosing(WindowEvent event) {
         try {
             dbConnection.close();
+            System.out.println("Connection with the database closed.");
         } catch (SQLException e) {
             System.out.println("Could not close the database connection.");
             throw new RuntimeException(e);
