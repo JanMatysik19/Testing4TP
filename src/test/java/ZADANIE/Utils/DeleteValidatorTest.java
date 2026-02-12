@@ -1,6 +1,5 @@
 package ZADANIE.Utils;
 
-import ZADANIE.Config.AppConstants;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
